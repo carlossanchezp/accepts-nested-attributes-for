@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source source="LOCAL" name="Rails accepts-nested-attributes-for: development" uuid="483efad9-5b3b-4758-9098-64b36deebdd1">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails accepts-nested-attributes-for: test" uuid="2e4bda43-b2d3-48b9-9cb7-14bc6492011d">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+</component>

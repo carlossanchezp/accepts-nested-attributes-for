@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Entity Roles</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @entity_roles.each do |entity_role| %>
+      <tr>
+        <td><%= link_to 'Show', entity_role %></td>
+        <td><%= link_to 'Edit', edit_entity_role_path(entity_role) %></td>
+        <td><%= link_to 'Destroy', entity_role, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Entity role', new_entity_role_path %>
